@@ -72,4 +72,4 @@ print(new_df)
 ## Learnings from the project
 If we had more time we would format the summary table to be more presentable, and find a way to add in the months these figures occurred in.
 
-We also struggled a bot with how remote this course was and having to work on a project collaboratively whilst being at opposite ends of the country. This helped us to build resilience and learn to use outside resources online to imprve our project.
+We also struggled a bit with how remote this course was and having to work on a project collaboratively whilst being at opposite ends of the country. This helped us to build resilience and learn to use outside resources online to imprve our project.
