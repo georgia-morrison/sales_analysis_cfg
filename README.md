@@ -48,3 +48,5 @@ plt.xlabel("Month")
 plt.ylabel("Sales")
 plt.show()
 ```
+This gave us the output of the graph shown below:
+![Sales Graph](https://user-images.githubusercontent.com/87599176/146179032-90e79f10-18c1-4b3b-ae57-6d88dbca6853.png)
