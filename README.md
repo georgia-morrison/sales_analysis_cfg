@@ -49,4 +49,27 @@ plt.ylabel("Sales")
 plt.show()
 ```
 This gave us the output of the graph shown below:
+
 ![Sales Graph](https://user-images.githubusercontent.com/87599176/146179032-90e79f10-18c1-4b3b-ae57-6d88dbca6853.png)
+
+We then decided to extend our project further by creating a table of summary statistics.
+
+### First we used pandas again to create a data frame from the data set. We then created new variables describing key statistics by using pandas built in functions. Finally we formatted this as a table, created another data frame and printed it.
+```
+df = pd.DataFrame(sales)
+max_sales = df['sales'].max()
+min_sales = df['sales'].min()
+max_spend = df['expenditure'].max()
+min_spend = df['expenditure'].min()
+
+d = [['Most Sales', max_sales],
+     ['Least Sales', min_sales],
+     ['Most Spending', max_spend],
+     ['Least Spending', min_spend]]
+new_df = pd.DataFrame(d)
+print(new_df)
+```
+## Learnings from the project
+If we had more time we would format the summary table to be more presentable, and find a way to add in the months these figures occurred in.
+
+We also struggled a bot with how remote this course was and having to work on a project collaboratively whilst being at opposite ends of the country. This helped us to build resilience and learn to use outside resources online to imprve our project.
