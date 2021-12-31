@@ -1,5 +1,5 @@
 # Sales Spreadsheet Analysis
-Final project from Code First Girls Python Kicksatrter course completed with classmate.
+Final project from Code First Girls Python Kickstarter course completed with classmate.
 
 We were required to read in a CSV file and output the total sales. Below is our code:
 
